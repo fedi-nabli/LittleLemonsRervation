@@ -15,6 +15,7 @@
 		4D42D36D294280EA009D4A7A /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42D36C294280EA009D4A7A /* Reservation.swift */; };
 		4D42D36F2942826C009D4A7A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42D36E2942826C009D4A7A /* Model.swift */; };
 		4D42D37129428500009D4A7A /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42D37029428500009D4A7A /* RestaurantView.swift */; };
+		4D42D373294287B1009D4A7A /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D42D372294287B0009D4A7A /* ReservationForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4D42D36C294280EA009D4A7A /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
 		4D42D36E2942826C009D4A7A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		4D42D37029428500009D4A7A /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		4D42D372294287B0009D4A7A /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				4D42D36C294280EA009D4A7A /* Reservation.swift */,
+				4D42D372294287B0009D4A7A /* ReservationForm.swift */,
 			);
 			path = RESERVATION;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				4D42D36F2942826C009D4A7A /* Model.swift in Sources */,
 				4D42D35D29426B96009D4A7A /* ContentView.swift in Sources */,
 				4D42D35B29426B96009D4A7A /* LittleLemonsRervationApp.swift in Sources */,
+				4D42D373294287B1009D4A7A /* ReservationForm.swift in Sources */,
 				4D42D36D294280EA009D4A7A /* Reservation.swift in Sources */,
 				4D42D36A2942801B009D4A7A /* RestaurantLocation.swift in Sources */,
 				4D42D37129428500009D4A7A /* RestaurantView.swift in Sources */,
