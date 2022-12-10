@@ -167,7 +167,7 @@ struct ReservationForm: View {
             
             var invalidPhoneMessage = ""
             if customerPhoneNumber.isEmpty {
-                invalidNameMessage = "The phone number cannot be blank.\n\n"
+                invalidPhoneMessage = "The phone number cannot be blank.\n\n"
             }
             
             var invalidEmailMessage = ""
