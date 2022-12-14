@@ -53,7 +53,11 @@ struct ReservationForm: View {
                                   value: $party,
                                   formatter: NumberFormatter())
                         .keyboardType(.numberPad)
-                        //TODO add a modofier here
+                        .onChange(of: party) { value in
+                            if value == 0 {
+                                party = 1
+                            }
+                        }
                     }
                     
                     //DATE PICKER
@@ -118,7 +122,7 @@ struct ReservationForm: View {
                     
                     //TODO add the RESERVE Button
                     Button(action: {
-                        
+                        validateForm()
                     }, label: {
                         Text("CONFIRM RESERVATION")
                     })
@@ -142,8 +146,11 @@ struct ReservationForm: View {
             .onChange(of: mustChangeReservation) { _ in
                 model.reservation = temporaryReservation
             }
-            
-            //TODO add alert after this line
+            .alert("ERROR", isPresented: $showFormInvalidMessage, actions: {
+                Button("OK", role: .cancel) { }
+            }, message: {
+                Text(self.errorMessage)
+            })
         }
         .onAppear {
             model.displayingReservationForm = true
